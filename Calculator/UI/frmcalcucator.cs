@@ -325,7 +325,7 @@ namespace Calculator
                 {
                     calculatorMode = CalculatorMode.Standard;
                 }
-                else if (tblOptions.SelectedTab == tblOptions.TabPages["Standard"])//your specific tabname
+                else if (tblOptions.SelectedTab == tblOptions.TabPages["Scientific"])//your specific tabname
                 {
                     calculatorMode = CalculatorMode.Scientific;
                 }
